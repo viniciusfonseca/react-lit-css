@@ -1,0 +1,33 @@
+{
+  "name": "react-lit-css",
+  "description": "React hook and utils for component styling with tagged template literals",
+  "author": {
+    "name": "Vinicius Fonseca",
+    "email": "vfonseca1618@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "css",
+    "style",
+    "classname"
+  ],
+  "private": false,
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir dist"
+  },
+  "files": [
+    "./dist/**/*"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
