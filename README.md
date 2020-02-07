@@ -92,7 +92,7 @@ const rootClass = css`
         border-radius: 12px;
         padding: 16px;
         animation-name: fade-in;
-        animation-duration: fade-in;
+        animation-duration: 300ms;
     }
     :host:hover {
         background-color: #FFF;
