@@ -13,7 +13,7 @@ First install it with `npm` or `yarn`:
 $ npm install --save react-lit-css
 ```
 
-Then use it in your React components. Import the `css` tagged template function (and also a hook!) and write CSS with it. It returns an unique `className` with scoped CSS rules. Note that if you want to apply the class rules, you have to specify the `:host` pseudo-selector:
+Then use it in your React components. Import the `css` tagged template function (which is also a hook) and write CSS with it. It returns an unique `className` with scoped CSS rules. Note that if you want to apply the class rules, you have to specify the `:host` pseudo-selector:
 
 ```jsx
 import React from 'react'
