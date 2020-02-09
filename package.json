@@ -5,6 +5,9 @@
     "name": "Vinicius Fonseca",
     "email": "vfonseca1618@gmail.com"
   },
+  "repository": {
+    "url": "https://github.com/viniciusfonseca/react-lit-css"
+  },
   "keywords": [
     "react",
     "hook",
